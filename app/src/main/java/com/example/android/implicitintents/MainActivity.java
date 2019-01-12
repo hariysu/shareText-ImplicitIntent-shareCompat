@@ -159,7 +159,8 @@ public class MainActivity extends AppCompatActivity {
         if (shareIntent.resolveActivity(getPackageManager()) != null){
             startActivity(shareIntent);
         }
-
+        // https://medium.com/androiddevelopers/sharing-content-between-android-apps-2e6db9d1368b
+        //https://stackoverflow.com/questions/10943177/how-to-startactivity-with-a-sharecompat-intentbuilder
     }
 
         // TODO (2) Create a String variable called mimeType and set it to "text/plain"
